@@ -1,7 +1,7 @@
 const accountId = 14433
 let accountEmail = "khushboo@google.com"
 var accountPassword = "1234"
-accountCity = "jaipur"
+accountCity = "jaipur"/workspaces/folderjs/01_basic
 let accountState;
 
 // accountId = 2  not allowed

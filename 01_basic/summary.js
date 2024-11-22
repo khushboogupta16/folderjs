@@ -22,7 +22,7 @@ let myObject = {name:"khushboo",
 
 const myFunction = function(){console.log("Hello world")}
 
-console.log(typeof heros)
+// console.log(typeof heros)
 
 
 // JavaScript is a dynamically typed language. This means that variable types are determined at runtime, and you do not need to explicitly declare the type of a variable before using it. You can assign different types of values to a variable during its lifetime.
@@ -54,3 +54,28 @@ console.log(typeof heros)
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+
+// -------------- Memory -------------------
+
+// Stack (Primitive), Heap (Non-primitive)
+
+let myname = "khushboo"
+let anothername = myname
+anothername= "kuku"
+
+console.log(myname);
+console.log(anothername);
+
+let userOne = {
+    email: "kuku@gmail.com",
+    upi:"user@ybl"
+
+}
+
+let userTwo = userOne
+
+userTwo.email = "kuku@2gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
